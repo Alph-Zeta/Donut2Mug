@@ -1,0 +1,31 @@
+# Build output
+*.exe
+*.obj
+*.o
+*.ilk
+*.pdb
+/circle_to_square
+/donut_to_mug
+
+# Files the programs generate when run from the repo root
+# (the copy of the GIF kept in docs/ is tracked on purpose)
+/circle_to_square.html
+/donut_to_mug.html
+/donut_to_mug.gif
+
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Editors and OS
+.vscode/
+.vs/
+Thumbs.db
+.DS_Store
